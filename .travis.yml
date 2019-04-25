@@ -1,0 +1,11 @@
+language: node_js
+node_js:
+- node
+notifications:
+  email: false
+deploy:
+  provider: heroku
+  api_key:
+    secure: dq/sOetA2I8++6o2GhLFkCOFQCeHdMKax7PdGfNKaMN3sivXgGY/EiV7H83sgN/TR/D9ySWJmyqt8s65WK+36PtyXwIm0CmrlqToOrxOfcpCTTTk5zcI138HwBAg5Q0LkZgDXjzHSZzloZaVNmZWNrDUhgyYanTaao6pfnemRPANac0iljlxezxTSeBPYEMdP/6V/hiGCUbkpeuysUk8WW1Fvd9y1jPFHWG/oco0t45YYFEsx/4DgHCT8Ct0ha6AM2b0CJpPAfnGlsAgqZgln57dtGV4sTmvRfme5Yl26wbH8lgtcJkumid//vLdU6/0PxclyP90XelNl7HJN3Azyf5XvNY8m6T2UZ/VaHxGLeqTd1nLK/TWE0+LJwHGyhSNeTSzMQtelGExlV5L0W66oxLFtrVYoT9JvZ/cCuQqBC95AcfzKYHcAcO+RfZLUlFsptiPnlKySm4Jpxfo6RzY3h8Y1KFTZ0UODPcsXaKa3AfPCHVrbnf6yRBbG//GaH8l/ToUPA8S17Kd4ZoRD+4YPteFwsdGLHdUZX0KT5tkcJIe0EOtunfhQZ8h5eYPUglydLXPms0769PtxDRgEEz2gSHSzMHE+YNGnxSK9X0e+4hNYrsvujgj4X7KN5krocnZ6vs7KBFw2+f64KQowCtQlYjnoZaVbws46Rtli4L0geI=
+  app: tour-of-heroes-cody
+  skip_cleanup: true
