@@ -45,7 +45,7 @@ This project was my first Angular project that I have ever written as part of th
 
 ### Demo
 
-<img src="generated/images/guide/toh/toh-anim.gif" alt="Tour of Heroes in Action" width="563" height="711">
+![toh-anim](https://user-images.githubusercontent.com/40974490/56928660-c38ccf00-6a94-11e9-9cfa-16cd3f52e9d4.gif)
 
 ### Prerequisites
 
