@@ -14,7 +14,7 @@ This application asumes that you have the following installed on your machine:
 
 - [node](https://www.npmjs.com/get-npm)
 - [npm](https://www.npmjs.com/get-npm)
-- [Angular CLI](https://github.com/angular/angular-cli) version 7.3.8.
+- [Angular CLI](https://github.com/angular/angular-cli)
 
 ### Setup
 
