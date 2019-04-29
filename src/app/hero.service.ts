@@ -10,8 +10,15 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
   providedIn: 'root'
 })
 export class HeroService {
+  private heroesUrl = 'api/heroes';  // URL to web api
 
-  constructor(private messageService : MessageService) { }
+  constructor(
+    private messageService : MessageService,
+    private http : HttpClient) { }
+
+  private log(message : string) {
+    this.messageService.add(`HeroService: ${message}`)
+  }
 
   getHeroes() : Observable<Hero[]> {
     this.messageService.add('HeroService: fetched heroes')
