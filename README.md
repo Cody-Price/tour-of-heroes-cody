@@ -84,4 +84,4 @@ This project requires no license
 
 ## Acknowledgments
 
-I would like to thank the Charter Communications (Denver) Dev Team for inspiring me to learn and build on the Angular knowledge they were kind enough to help teach me. I'll keep the ball rolling!
+I would like to thank the Charter Communications (Denver) Dev Team for inspiring me to learn and build on the Angular knowledge they were kind enough to help teach me. I'll keep the ball rolling! (off to design my own Angular application)
